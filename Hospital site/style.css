@@ -1,0 +1,969 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fbff;
+    color: #333;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --dark: #212529;
+    --light: #ffffff;
+    --bg: #f8fbff;
+    --border: #e5e5e5;
+
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark);
+
+}
+
+.section-title p {
+
+    color: #777;
+    max-width: 650px;
+    margin: auto;
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+    padding: 15px 0;
+
+}
+
+.navbar-brand {
+
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+
+}
+
+.navbar-brand img {
+
+    width: 55px;
+
+}
+
+.navbar-nav .nav-link {
+
+    color: #444;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .3s;
+
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: var(--primary);
+
+}
+
+.navbar-nav .nav-link.active {
+
+    color: var(--primary);
+
+}
+
+
+/* BUTTON */
+
+.btn-primary {
+
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.btn-primary:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+/* PAGE BANNER */
+
+.page-banner {
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.page-banner img {
+
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+
+}
+
+.banner-content {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.banner-content h1 {
+
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.banner-content .breadcrumb {
+
+    margin-top: 15px;
+
+}
+
+.banner-content a {
+
+    color: #fff;
+
+}
+
+.banner-content .breadcrumb-item {
+
+    color: #fff;
+
+}
+
+.banner-content .breadcrumb-item+.breadcrumb-item::before {
+
+    color: #fff;
+
+}
+
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fbff;
+    color: #333;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* COLORS */
+
+:root {
+
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --dark: #212529;
+    --light: #ffffff;
+    --bg: #f8fbff;
+    --border: #e5e5e5;
+
+}
+
+
+/* COMMON SECTION */
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark);
+
+}
+
+.section-title p {
+
+    color: #777;
+    max-width: 650px;
+    margin: auto;
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+    padding: 15px 0;
+
+}
+
+.navbar-brand {
+
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+
+}
+
+.navbar-brand img {
+
+    width: 55px;
+
+}
+
+.navbar-nav .nav-link {
+
+    color: #444;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .3s;
+
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: var(--primary);
+
+}
+
+.navbar-nav .nav-link.active {
+
+    color: var(--primary);
+
+}
+
+
+/* BUTTON */
+
+.btn-primary {
+
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.btn-primary:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+/* PAGE BANNER */
+
+.page-banner {
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.page-banner img {
+
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+
+}
+
+.banner-content {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.banner-content h1 {
+
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.banner-content .breadcrumb {
+
+    margin-top: 15px;
+
+}
+
+.banner-content a {
+
+    color: #fff;
+
+}
+
+.banner-content .breadcrumb-item {
+
+    color: #fff;
+
+}
+
+.banner-content .breadcrumb-item+.breadcrumb-item::before {
+
+    color: #fff;
+
+}
+
+/* DEPARTMENTS */
+
+.departments {
+    background: #f8fbff;
+}
+
+.departments .card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.departments .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+
+.departments .card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.departments .card:hover img {
+    transform: scale(1.08);
+}
+
+.departments .card-body {
+    padding: 25px;
+}
+
+.departments .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.departments .card-text {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.departments .btn-outline-primary {
+    border-radius: 30px;
+    padding: 10px 28px;
+    transition: .3s;
+}
+
+.departments .btn-outline-primary:hover {
+    transform: translateY(-2px);
+}
+
+
+/* DOCTORS */
+
+.doctors {
+    background: #fff;
+}
+
+.doctors .card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: .4s;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.doctors .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+
+.doctors .card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.doctors .card:hover img {
+    transform: scale(1.08);
+}
+
+.doctors .card-body {
+    padding: 25px;
+}
+
+.doctors h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.doctors p {
+    color: #777;
+    margin-bottom: 0;
+}
+
+.doctors .card:hover h4,
+.doctors .card:hover p {
+    color: var(--primary);
+}
+
+
+/* COMMON CARDS */
+
+.card {
+    border-radius: 18px;
+}
+
+.card img {
+    display: block;
+}
+
+.card-body {
+    background: #fff;
+}
+
+.shadow-sm {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+}
+
+.rounded {
+    border-radius: 18px;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    transition: .3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-outline-primary {
+    border-width: 2px;
+}
+
+
+/* SECTION HEADINGS */
+
+section span {
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+/* WHY CHOOSE US */
+
+.why-choose {
+    background: #ffffff;
+}
+
+.why-choose img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .12);
+}
+
+.why-choose h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.why-choose p {
+    color: #666;
+    line-height: 1.8;
+}
+
+.why-choose .d-flex {
+    margin-bottom: 25px;
+}
+
+.why-choose i {
+    color: var(--primary);
+    font-size: 40px;
+    min-width: 60px;
+}
+
+.why-choose h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section {
+    background: #f8fbff;
+}
+
+
+/*. GOOGLE MAP */
+
+.ratio {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .12);
+}
+
+.ratio iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* APPOINTMENT FORM */
+
+.appointment-form {
+
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+}
+
+.appointment-form h2 {
+
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+
+/* FORM LABEL */
+
+.form-label {
+
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+
+}
+
+
+/* INPUTS */
+
+.form-control {
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 14px 16px;
+    transition: .3s;
+
+}
+
+.form-control:focus {
+
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(13, 110, 253, .2);
+
+}
+
+
+/*===================================
+ TEXTAREA
+===================================*/
+
+textarea.form-control {
+
+    resize: none;
+
+}
+
+
+/* RADIO BUTTON */
+
+.form-check {
+
+    margin-bottom: 10px;
+
+}
+
+.form-check-input:checked {
+
+    background-color: var(--primary);
+    border-color: var(--primary);
+
+}
+
+
+/* SUBMIT BUTTON */
+
+.appointment-form .btn {
+
+    padding: 12px 35px;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.appointment-form .btn:hover {
+
+    transform: translateY(-3px);
+
+}
+
+
+/* CONTACT IMAGE */
+
+.contact-section img {
+
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    display: block;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background: #1f2937;
+    color: #fff;
+    padding: 80px 0 30px;
+}
+
+.footer .navbar-brand span {
+    color: #fff;
+}
+
+.footer h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer p {
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 12px;
+}
+
+.footer ul li a {
+    color: #f2e6e6;
+    transition: .3s;
+}
+
+.footer ul li a:hover {
+    color: var(--primary);
+    padding-left: 5px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, .15);
+}
+
+.footer .text-center p {
+    color: #bdbdbd;
+    margin: 0;
+}
+
+
+/* SOCIAL ICONS */
+
+.footer .d-flex a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer .d-flex a:hover {
+    background: var(--primary);
+    transform: translateY(-4px);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:1200px) {
+
+    .carousel-caption h1 {
+        font-size: 48px;
+    }
+
+    section h2 {
+        font-size: 38px;
+    }
+
+}
+
+
+@media (max-width:992px) {
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar .btn {
+        margin-top: 15px;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption {
+        bottom: 15%;
+        text-align: center;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .page-banner img {
+        height: 320px;
+    }
+
+    .banner-content h1 {
+        font-size: 42px;
+    }
+
+    .about img,
+    .why-choose img {
+        margin-bottom: 35px;
+    }
+
+    .appointment-form {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    section {
+        padding: 60px 0;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 32px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .page-banner img {
+        height: 260px;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .section-title h2,
+    section h2 {
+        font-size: 30px;
+    }
+
+    .service-card,
+    .appointment-form {
+        padding: 25px;
+    }
+
+    .doctors .card img {
+        height: 280px;
+    }
+
+    .departments .card img {
+        height: 220px;
+    }
+
+}
+
+
+@media (max-width:576px) {
+
+    .navbar-brand span {
+        font-size: 24px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 24px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .page-banner img {
+        height: 220px;
+    }
+
+    .banner-content h1 {
+        font-size: 26px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer .d-flex {
+        justify-content: center;
+    }
+
+}
+
+
+/* SMOOTH EFFECTS */
+
+.card,
+.service-card,
+.btn,
+img,
+a {
+    transition: all .3s ease;
+}
+
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}

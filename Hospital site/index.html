@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DocMed Hospital</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="style.css"> <!-- CSS -->
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+
+      <div class="container">
+
+        <!-- Logo -->
+
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+          <img src="Logo.jpg" alt="Hospital Logo" width="55" class="me-2">
+          <span class="text-primary fs-3">
+            DocMed
+          </span>
+        </a>
+
+        <!-- Mobile Button -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="department.html">
+                Departments
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="doctors.html">
+                Doctors
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                Contact
+              </a>
+            </li>
+
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a href="#appointment" class="btn btn-primary px-4 py-2">
+                Make Appointment
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- Hero Carousel -->
+
+    <section class="hero-section">
+
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- Carousel Items -->
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+
+          <div class="carousel-item active">
+
+            <img src="Bnr1.jpg" class="d-block w-100" alt="Hospital Banner">
+
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+
+              <div class="container text-start">
+
+                <div class="row">
+
+                  <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">
+                      Quality Healthcare
+                      <br>
+                      For Every Patient
+                    </h1>
+
+                    <p class="lead my-4">
+                      We provide world-class healthcare services with
+                      experienced doctors, advanced technology,
+                      and compassionate care.
+                    </p>
+
+                    <a href="contact.html" class="btn btn-primary btn-lg px-4">
+                      Book Appointment
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Slide 2 -->
+
+          <div class="carousel-item">
+
+            <img src="Bnr2.jpg" class="d-block w-100" alt="Hospital Banner">
+
+            <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+
+              <div class="container text-start">
+
+                <div class="row">
+
+                  <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">
+                      Trusted Doctors
+                      <br>
+                      Better Care
+                    </h1>
+
+                    <p class="lead my-4">
+                      Our team of specialists is committed to
+                      delivering safe, effective, and personalized
+                      healthcare services.
+                    </p>
+
+                    <a href="doctors.html" class="btn btn-primary btn-lg px-4">
+                      Meet Doctors
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Previous -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <!-- Next -->
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services py-5">
+
+      <div class="container">
+
+        <div class="row g-4">
+
+          <!-- Service 1 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="service-card h-100 p-4">
+              <div class="service-icon mb-4">
+                <i class="fa-solid fa-heart-pulse fa-3x"></i>
+              </div>
+
+              <h3 class="mb-3">
+                Hospitality
+              </h3>
+              <p class="mb-0">
+                We provide quality healthcare with compassionate
+                treatment and patient-centered services to ensure
+                comfort throughout your medical journey.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Service 2 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="service-card active h-100 p-4">
+
+              <div class="service-icon mb-4">
+                <i class="fa-solid fa-truck-medical fa-3x"></i>
+              </div>
+
+              <h3 class="mb-3">
+                Emergency Care
+              </h3>
+
+              <p class="mb-0">
+                Our emergency department operates 24/7 with
+                experienced doctors and modern equipment for
+                immediate medical attention.
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- Service 3 -->
+
+          <div class="col-lg-4 col-md-6 mx-md-auto">
+
+            <div class="service-card h-100 p-4">
+              <div class="service-icon mb-4">
+                <i class="fa-solid fa-briefcase-medical fa-3x"></i>
+              </div>
+
+              <h3 class="mb-3">
+                Chamber Service
+              </h3>
+              <p class="mb-0">
+                Our specialists offer personalized consultations,
+                diagnosis, and treatment plans using the latest
+                healthcare practices.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about py-5">
+
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <!-- About Image -->
+
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img src="Abt-Img.jpg" class="img-fluid rounded shadow" alt="About Hospital">
+            </div>
+          </div>
+
+          <!-- About Content -->
+
+          <div class="col-lg-6">
+
+            <span class="text-primary fw-semibold">
+              Welcome To DocMed
+            </span>
+
+            <h2 class="display-6 fw-bold mt-3 mb-4">
+              Best Care For Your
+              Good Health
+            </h2>
+
+            <p class="text-muted mb-4">
+              We are committed to providing high-quality healthcare
+              services through experienced doctors, advanced medical
+              technology, and compassionate patient care. Our mission
+              is to improve lives by delivering trusted healthcare
+              solutions.
+            </p>
+
+            <!-- Features -->
+
+            <div class="mb-3">
+
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa-regular fa-circle-check text-primary me-3"></i>
+                <span>
+                  Experienced and Qualified Doctors
+                </span>
+              </div>
+
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa-regular fa-circle-check text-primary me-3"></i>
+                <span>
+                  24×7 Emergency Medical Services
+                </span>
+              </div>
+
+              <div class="d-flex align-items-center mb-3">
+                <i class="fa-regular fa-circle-check text-primary me-3"></i>
+                <span>
+                  Modern Equipment and Advanced Facilities
+                </span>
+              </div>
+
+              <div class="d-flex align-items-center">
+                <i class="fa-regular fa-circle-check text-primary me-3"></i>
+                <span>
+                  Personalized Patient Care
+                </span>
+              </div>
+
+            </div>
+
+            <!-- Button -->
+
+            <a href="about.html" class="btn btn-primary mt-4 px-4 py-2">
+              Learn More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Departments Section -->
+
+    <section class="departments py-5">
+
+      <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="row mb-5">
+
+          <div class="col-lg-8 mx-auto text-center">
+            <span class="text-primary fw-semibold">
+              Our Services
+            </span>
+
+            <h2 class="display-5 fw-bold mt-2">
+              Our Departments
+            </h2>
+
+            <p class="text-muted mt-3">
+              We provide comprehensive healthcare services through our
+              specialized departments, equipped with advanced technology
+              and experienced medical professionals.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Department Cards -->
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department1.jpg" class="card-img-top" alt="Eye Care">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Eye Care
+                </h4>
+
+                <p class="card-text">
+                  Advanced diagnosis and treatment for all eye
+                  conditions using modern technology.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department2.jpg" class="card-img-top" alt="Physical Therapy">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Physical Therapy
+                </h4>
+
+                <p class="card-text">
+                  Personalized rehabilitation programs to restore
+                  mobility and improve quality of life.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department3.jpg" class="card-img-top" alt="Dental Care">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Dental Care
+                </h4>
+
+                <p class="card-text">
+                  Comprehensive dental services including cosmetic,
+                  preventive, and restorative treatments.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Card 4 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department4.jpg" class="card-img-top" alt="Diagnostic">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Diagnostic
+                </h4>
+
+                <p class="card-text">
+                  Accurate laboratory testing and imaging services
+                  for faster diagnosis and treatment.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department5.jpg" class="card-img-top" alt="Skin Surgery">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Skin Surgery
+                </h4>
+
+                <p class="card-text">
+                  Specialized dermatology treatments and advanced
+                  skin surgery performed by experts.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Card 6 -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="card department-card border-0 shadow-sm h-100">
+
+              <img src="Department6.jpg" class="card-img-top" alt="Surgery">
+
+              <div class="card-body">
+                <h4 class="card-title">
+                  Surgery Services
+                </h4>
+
+                <p class="card-text">
+                  Safe and modern surgical procedures performed by
+                  highly experienced surgeons.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary">
+                  Learn More
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Expert Doctors Section -->
+
+    <section class="doctors py-5">
+
+      <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="row mb-5">
+
+          <div class="col-lg-8 mx-auto text-center">
+
+            <span class="text-primary fw-semibold">
+              Our Team
+            </span>
+
+            <h2 class="display-5 fw-bold mt-2">
+              Meet Our Expert Doctors
+            </h2>
+
+            <p class="text-muted mt-3">
+              Our experienced specialists are dedicated to providing
+              exceptional healthcare with compassion, expertise,
+              and the latest medical technology.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Doctors -->
+
+        <div class="row g-4">
+
+          <!-- Doctor 1 -->
+
+          <div class="col-lg-3 col-md-6">
+
+            <div class="card doctor-card border-0 shadow-sm h-100">
+
+              <img src="Doctor1.jpg" class="card-img-top" alt="Dr. Alisa">
+
+              <div class="card-body text-center">
+
+                <h4 class="fw-bold">
+                  Dr. Alisa
+                </h4>
+
+                <p class="text-muted mb-3">
+                  Neurologist
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Doctor 2 -->
+
+          <div class="col-lg-3 col-md-6">
+
+            <div class="card doctor-card border-0 shadow-sm h-100">
+
+              <img src="Doctor2.jpg" class="card-img-top" alt="Dr. Caroline Grant">
+
+              <div class="card-body text-center">
+
+                <h4 class="fw-bold">
+                  Dr. Caroline Grant
+                </h4>
+
+                <p class="text-muted mb-3">
+                  Cardiologist
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Doctor 3 -->
+
+          <div class="col-lg-3 col-md-6">
+
+            <div class="card doctor-card border-0 shadow-sm h-100">
+
+              <img src="Doctor3.jpg" class="card-img-top" alt="Dr. Mirazul Alom">
+
+              <div class="card-body text-center">
+
+                <h4 class="fw-bold">
+                  Dr. Mirazul Alom
+                </h4>
+
+                <p class="text-muted mb-3">
+                  Psychiatrist
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Doctor 4 -->
+
+          <div class="col-lg-3 col-md-6">
+
+            <div class="card doctor-card border-0 shadow-sm h-100">
+
+              <img src="Doctor4.jpg" class="card-img-top" alt="Dr. Nathan Mullins">
+
+              <div class="card-body text-center">
+
+                <h4 class="fw-bold">
+                  Dr. Nathan Mullins
+                </h4>
+
+                <p class="text-muted mb-3">
+                  Dermatologist
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer bg-dark text-light pt-5">
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <!-- About -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <a href="index.html" class="navbar-brand d-flex align-items-center mb-4">
+              <img src="Logo.jpg" alt="Hospital Logo" width="60" class="me-2">
+              <span class="fs-3 fw-bold text-white">
+                DocMed
+              </span>
+            </a>
+
+            <p class="text-secondary">
+              We are committed to providing exceptional healthcare
+              services with compassion, innovation, and excellence.
+              Your health and well-being are our highest priorities.
+            </p>
+
+            <div class="d-flex gap-3 mt-4">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Departments -->
+
+          <div class="col-lg-2 col-md-6">
+
+            <h4 class="mb-4">
+              Departments
+            </h4>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="footer-link">
+                  Eye Care
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="footer-link">
+                  Cardiology
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="footer-link">
+                  Dental Care
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="footer-link">
+                  Neurology
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">
+                  Surgery
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <!-- Quick Links -->
+
+          <div class="col-lg-2 col-md-6">
+
+            <h4 class="mb-4">
+              Quick Links
+            </h4>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="footer-link">
+                  Home
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="footer-link">
+                  About
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="department.html" class="footer-link">
+                  Departments
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="doctors.html" class="footer-link">
+                  Doctors
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <!-- Contact -->
+
+          <div class="col-lg-4 col-md-6">
+
+            <h4 class="mb-4">
+              Contact Us
+            </h4>
+
+            <div class="mb-3 d-flex">
+              <i class="fa-solid fa-location-dot me-3 mt-1"></i>
+              <span>
+                200, D-Block, Green Lane,<br>
+                New Delhi, India
+              </span>
+            </div>
+
+            <div class="mb-3 d-flex">
+              <i class="fa-solid fa-phone me-3 mt-1"></i>
+              <span>
+                +91 98765 43210
+              </span>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-envelope me-3 mt-1"></i>
+              <span>
+                info@docmed.com
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+        <hr class="border-secondary my-5">
+
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0 text-secondary">
+              © 2026 DocMed Hospital. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Bundle JS -->
+  <script src="js/script.js"></script> <!-- JavaScript -->
+
+</body>
+</html>
